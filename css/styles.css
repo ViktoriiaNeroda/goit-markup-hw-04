@@ -89,10 +89,10 @@ body {font-family: 'Roboto', sans-serif;
 }
 
 .hero {
-    background-color: #2E2F42;
-    display: flex;
-    align-items: center;
     padding: 188px 0px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)); url(../images/hero/background-hero-main-img.jpg);
+    background-size: cover;
+    background-color: #2E2F42;
 }  
 
 .hero-title {
