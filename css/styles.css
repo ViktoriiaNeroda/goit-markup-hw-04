@@ -89,10 +89,13 @@ body {font-family: 'Roboto', sans-serif;
 }
 
 .hero {
-    padding: 188px 0px;
+    padding: 188px 0px; 
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/background-hero-main-img.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1440px;
     background-color: #2E2F42;
+    margin: auto;
 }  
 
 .hero-title {
@@ -164,6 +167,17 @@ body {font-family: 'Roboto', sans-serif;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42; 
+}
+.benefit-icons {
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    padding: 24px 100px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.subtitle-about {
+    margin-top: 8px;
 }
 .work {
     padding: 60px 0 120px 0;
@@ -240,15 +254,22 @@ body {font-family: 'Roboto', sans-serif;
     border: 1px solid #8E8F99;
     border-radius: 4px; 
 }
+
+.customer-link {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+fill: #8E8F99;
+}
+
 .customer-list:hover, .customer-list:focus {
     border: 1px solid #404BBF;
 }
-.customer-icons {
-    fill: #8E8F99;
-}
-.customer-icons:hover, .customer-icons:focus {
-    fill: #404BBF;
-}
+.customer-link:hover, .customer-link:focus {
+   fill: #404BBF; 
+ }  
 
 .footer {
     background: #2E2F42;
@@ -286,10 +307,12 @@ max-width: 264px;
     
     
 }
-.footer-social {
-
-
-    
+.footer-social-link {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
 }
 .footer-text-social {
     font-weight: 500;
@@ -306,7 +329,8 @@ max-width: 264px;
     height: 40px;
     border: 1px solid transparent;
     border-radius: 50%;
-background-color: rgba(255, 255, 255, 0.1);;
+    background-color: rgba(255, 255, 255, 0.1);
+    
 }
 .footer-social-list:focus, .footer-social-list:hover {
     background-color: #31D0AA;
@@ -314,6 +338,7 @@ background-color: rgba(255, 255, 255, 0.1);;
 .footer-social-item {
     display: flex;
     margin-top: 16px;
+    gap: 16px;  
 }
 
 
