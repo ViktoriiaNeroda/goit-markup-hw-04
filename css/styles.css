@@ -171,7 +171,7 @@ body {font-family: 'Roboto', sans-serif;
 .benefit-icons {
     background-color: #F4F4FD;
     border-radius: 4px;
-    padding: 24px 100px;
+    padding: 24px 0;
     display: flex;
         justify-content: center;
         align-items: center;
